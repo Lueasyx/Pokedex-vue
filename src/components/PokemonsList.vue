@@ -6,13 +6,13 @@ const pokemon = defineProps(["name", "url"]);
 const id = pokemon.url.split('/')[6];
 
 function FormatId(id) {
-    if (id >= 0 && id <= 9) {
-        return `00${id}`
-    } else if (id >= 10 && id <= 99) {
-        return `0${id}` 
-    } else {
-        return id
-    }
+  if (id >= 0 && id <= 9) {
+    return `00${id}`
+  } else if (id >= 10 && id <= 99) {
+    return `0${id}`
+  } else {
+    return id
+  }
 }
 
 const text = ref(null);
