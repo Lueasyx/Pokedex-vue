@@ -1,29 +1,44 @@
-# pokedex
+# Projeto pokédex-Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto foi feito utilizando principalmente a PokéAPI, obtendo também Algumas requests de APIs de Imagem.
 
-## Recommended IDE Setup
+## Como Iniciar o Projeto
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Para vizualizar o Projeto, basta seguir os seguintes passos:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+1. Fazer o clone do repositório:
 
 ```sh
-npm install
+git clone 'https://github.com/Lueasyx/Pokedex-vue.git'
 ```
 
-### Compile and Hot-Reload for Development
+2. Entrar na pas ta do projeto:
 
 ```sh
-npm run dev
+cd pokedex-vue/
 ```
 
-### Compile and Minify for Production
+3. Instalar as dependências do NPM e do Vue:
 
 ```sh
-npm run build
+npm Install
 ```
+ou
+```
+NPM i
+```
+
+4. Após a compilação, abrir o projeto no navegador utilizando o localhost;
+
+# Um Pouco mais sobre o projeto
+
+Este projeto, inicialmente, tem a ideia de ser uma pokédex intuitiva utilizando o meu conhecimento de VueJs e requests de API.
+
+Por enquanto o projeto possui duas paginas, a inicial de seleção de pokémons e a pagina de informações dos pokémons.
+
+# Referencias de APIs utilizadas
+
+- [PokéAPI](https://pokeapi.co/)
+- [PokéSprites (Tipos)](https://msikma.github.io/pokesprite/overview/misc.html#type-logos)
+- [PokéSprites (Pokémons)](https://github.com/PokeAPI/sprites)
+
